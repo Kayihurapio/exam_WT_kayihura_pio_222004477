@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Coaching</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-image: url('img4.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+      
+        .container {
+            padding: 50px 20px;
+        }
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .feature-title {
+            font-size: 30px;
+            font-weight: italic;
+            margin-bottom: 10px;
+        }
+        .feature-description {
+            font-size: 16px;
+        }
+        
+        .advertisement-photo {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+       
+        .navbar {
+            padding:20px;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .navbar-nav .nav-item .nav-link {
+            font-size: 18px;
+            letter-spacing: 2px;
+            transition: color 0.3s ease;
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+            color:blue; 
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <div class="container text-center py-4">
+        <h1>Welcome to Interview Coaching</h1>
+        <p>We help you succeed in your interviews!</p>
+    </div>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Interview Coaching</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="about_us.php">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact_us.php">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.php">Services</a>
+            </li>
+<li class="nav-item">
+    <span class="nav-link">Admin</span>
+    <select class="nav-link" onchange="location = this.value;">
+        <option value="login_admin.php">Login Admin</option>
+     <option value="register_admin.php">Register Admin</option>
+
+    </select>
+</li>
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="register.php">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.php">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Body Section -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="img2.jpg" alt="Advertisement 1" class="img-fluid advertisement-photo">
+            <i class="fas fa-user-graduate feature-icon"></i>
+            <h2 class="feature-title">Expert Coaches</h2>
+            <p class="feature-description">Our team consists of experienced interview coaches who are dedicated to helping you succeed.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="img1.jpg" alt="Advertisement 2" class="img-fluid advertisement-photo">
+            <i class="fas fa-book feature-icon"></i>
+            <h2 class="feature-title">Comprehensive Resources</h2>
+            <p class="feature-description">Access a wide range of interview preparation materials, including mock interviews, practice questions, and tips.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="img3.jpg" alt="Advertisement 3" class="img-fluid advertisement-photo">
+            <i class="fas fa-calendar-alt feature-icon"></i>
+            <h2 class="feature-title">Flexible Scheduling</h2>
+            <p class="feature-description">Schedule coaching sessions at your convenience, including evenings and weekends, to fit your busy schedule.</p>
+        </div>
+    </div>
+</section>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 Interview Coaching. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
